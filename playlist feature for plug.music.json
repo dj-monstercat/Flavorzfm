@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 settings = {
    logToConsole: true, //Setting to ‘true’ will log to console
    logToChat: false,   //Setting to ‘true’ will log to chat
