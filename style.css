@@ -1,0 +1,37 @@
+element.style {
+}
+#chat .emote .text {
+    font-style: oblique;
+}
+#chat-messages .text {
+    position: relative;
+}
+*, .jspArrow {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheetdiv {
+    display: block;
+}
+Inherited from div.cm.emote
+#chat .adsense, #chat .emote, #chat .log, #chat .mention, #chat .message, #chat .moderation, #chat .promo, #chat .system, #chat .user-action, #chat .welcome {
+    position: relative;
+    clear: left;
+    min-height: 46px;
+    width: 100%;
+    word-wrap: break-word;
+}
+Inherited from div#chat-messages
+#chat-messages {
+    position: absolute;
+    top: 227px;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    color: #eee;
+    font-size: 12px;
+}
+#chat-input-field, #chat-messages {
+    font-family: Roboto,sans-serif;
+}
