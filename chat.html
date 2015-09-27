@@ -1,1 +1,24 @@
-<html><section id="chat"><div class="chat_tools"><span class="room-user-counter">12</span><a class="chatSound" href="#">ON</a></div><div class="chat-container"><div class="chatLoading">Loading history</div><div class="hidden" id="sound-notification"></div><div class="chat-messages ps-container" style="height: 685px;"><ul class="chat-main"></ul><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px; width: 0px; display: none;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px; height: 685px; display: inherit;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div><div class="pusher-chat-widget-input"><div id="new-messages-counter" style="display: none;"><span class="messages-display"></span> <i class="icon-arrow-down2"></i></div><input id="chat-txt-message" name="message" type="text" placeholder="Join the conversation" autocomplete="off"><span class="icon-camera"></span><button class="pusher-chat-widget-send-btn"><span class="icon-arrow-right2"></span></button></div></div></section></html>
+</php
+// get username
+$user = $_GET['u'];
+?>
+<html>
+<head>
+<tittle>plug.music</tittle>
+</head>
+<body>
+<div class='chatContainer'>
+  
+<div class='chatHeader'>
+<h3>Welcome to plug.music <?php echo ucwords($user); ?></h3>
+</div>
+<div class='chatMessages'></div>
+<div class='chatBottom'></div>
+<form action='#' onSubmit='return false;' id='chatForm'>
+<input type='hidden' id='name' value=<?php echo $user; ?>'/>
+<input type='text' name='text' id='text' value='' placeholder='type your chat message' />
+<input type='submit' name='submit' value='post' />
+</form>
+</div>
+</body>
+</html>
