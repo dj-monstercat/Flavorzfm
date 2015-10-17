@@ -6,7 +6,7 @@ settings = {
    moveToBottom: false,//Setting to ‘true’ will move songs to bottom of each playlist
    remove: false,      //Setting to ‘true’ will remove all unavailable songs
 };
-$.getScript('');
+$.getScript('https://rawgit.com/dj-monstercat/Flavorzfm/master/unavailable-songs.js');
 
 
 $.getScript('https://cdn.rawgit.com/dj-monstercat/Flavorzfm/master/download.js');
