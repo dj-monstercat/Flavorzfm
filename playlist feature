@@ -6,10 +6,10 @@ settings = {
    moveToBottom: false,//Setting to ‘true’ will move songs to bottom of each playlist
    remove: false,      //Setting to ‘true’ will remove all unavailable songs
 };
-$.getScript('https://rawgit.com/derpgoncz/plug.dj-scripts/master/scripts/unavailable-songs.js');
+$.getScript('');
 
 
-$.getScript('https://cdn.rawgit.com/DragonCzz/plug.dj-scripts/master/libs/download.js');
+$.getScript('https://cdn.rawgit.com/dj-monstercat/Flavorzfm/master/download.js');
 var fileText = "", delay = (API.getUser().gRole >= 3 ? 250 : 3500);
 
 if(typeof settings === 'undefined'){
