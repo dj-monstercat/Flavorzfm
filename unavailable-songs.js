@@ -1,4 +1,4 @@
-$.getScript('https://cdn.rawgit.com/DragonCzz/plug.dj-scripts/master/libs/download.js');
+$.getScript('https://cdn.rawgit.com/dj-monstercat/Flavorzfm/master/download.js');
 var APIkey = 'AIzaSyDgGJ6aED-sENrI9zsEli9i4SVXTORfN5Q';
 var unavailableMove = [], fileText = "", delay = (API.getUser().gRole >= 3 ? 100 : 3500);
 
